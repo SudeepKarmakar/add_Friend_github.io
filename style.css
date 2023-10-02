@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(94, 208, 242);
+}
+
+#card{
+    height: 470px;
+    width: 380px;
+    background-color: rgb(246, 229, 206);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* padding: 14px; */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.344);
+}
+
+#card h1{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+
+#card h5{
+    font-size: 27px;
+    color: rgb(255, 47, 1);
+    margin: 20px;
+}
+
+#card button{
+    background-color: rgb(31, 83, 239);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* #card #remove{
+    background-color: rgb(196, 181, 181);
+    color: black;
+} */
